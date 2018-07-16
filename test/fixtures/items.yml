@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  book: 1
+  pen: 1
+  cup: 1
+  plate: 1
+
+two:
+  book: 1
+  pen: 1
+  cup: 1
+  plate: 1

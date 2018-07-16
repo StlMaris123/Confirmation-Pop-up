@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Book:</strong>
+  <%= @item.book %>
+</p>
+
+<p>
+  <strong>Pen:</strong>
+  <%= @item.pen %>
+</p>
+
+<p>
+  <strong>Cup:</strong>
+  <%= @item.cup %>
+</p>
+
+<p>
+  <strong>Plate:</strong>
+  <%= @item.plate %>
+</p>
+
+<%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %>
